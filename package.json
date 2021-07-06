@@ -1,0 +1,29 @@
+{
+  "name": "websocket-lab",
+  "version": "1.0.0",
+  "description": "websocket test lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js",
+    "build-css": "node-sass --include-path scss src/style/main.scss dist/public/css/main.css",
+    "pack": "webpack"
+  },
+  "author": "Peter Yoakum",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-sass": "^6.0.1",
+    "pug": "^3.0.2",
+    "sass-loader": "^8.0.2",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2",
+    "uuid": "^8.3.2",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
